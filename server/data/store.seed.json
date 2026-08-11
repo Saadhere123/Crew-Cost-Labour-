@@ -1,0 +1,33 @@
+{
+  "employees": [
+    { "id": "w-a", "name": "Worker A", "rate": 20 },
+    { "id": "w-b", "name": "Worker B", "rate": 25 },
+    { "id": "w-c", "name": "Worker C", "rate": 27 }
+  ],
+  "tasks": [
+    {
+      "id": "t-101",
+      "name": "Frame Unit 101",
+      "budget": 1000,
+      "assigned": ["w-a", "w-b"],
+      "consumed": 0,
+      "overBudget": 0,
+      "laborBy": {},
+      "hoursBy": {},
+      "lastTick": 0
+    },
+    {
+      "id": "t-102",
+      "name": "MEP Rough-In 204",
+      "budget": 2400,
+      "assigned": ["w-c"],
+      "consumed": 0,
+      "overBudget": 0,
+      "laborBy": {},
+      "hoursBy": {},
+      "lastTick": 0
+    }
+  ],
+  "clockedIn": {},
+  "paused": false
+}
